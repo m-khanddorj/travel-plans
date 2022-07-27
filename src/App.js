@@ -30,8 +30,8 @@ const App = () => {
               <Event
                 avatar = '🚆'
                 name = 'Commute'
-                start = '11:00'
-                end = '12:10'
+                start = '12:20'
+                end = '13:30'
                 desc = {
                     `
                       We will go to 吉祥寺駅 by train. 
@@ -45,22 +45,22 @@ const App = () => {
               <Event
                 avatar = '🍱'
                 name = 'Lunch'
-                start = '12:30'
-                end = '13:30'
+                start = '13:30'
+                end = '14:30'
                 desc = {
                   `
-                    Lets have lunch around 吉祥寺駅. 
+                    Lets have lunch at the Cafe Russia.
                   `
                 }
-                price = {'~1000'}
+                price = {'~2000 - 3000'}
               />
             </Grid>
             <Grid item xs = {12} >
               <Event
                 avatar = '🚌'
                 name = 'Commute'
-                start = '13:30'
-                end = '13:40'
+                start = '14:30'
+                end = '15:00'
                 desc = {
                   `
                     We will go to the Ghibli museum by bus. 
@@ -74,8 +74,8 @@ const App = () => {
               <Event
                 avatar = '🎨'
                 name = 'Ghibli Museum'
-                start = '13:40'
-                end = '15:40'
+                start = '15:00'
+                end = '16:30'
                 desc = {
                   `
                     Let's explore the Ghibli world!
@@ -85,22 +85,7 @@ const App = () => {
               />
               
             </Grid>
-            <Grid item xs = {12} >
-              <Event
-                avatar = '🌴'
-                name = 'Free time'
-                start = '15:40'
-                end = '16:40'
-                desc = {
-                  `
-                    Let's explore area!
-                    Or we can have some fun in the park.
-                  `
-                }
-                price = {'~'}
-              />
-              
-            </Grid>
+            
             <Grid item xs = {12} >
               <Event
                 avatar = '🚌'
@@ -121,7 +106,7 @@ const App = () => {
                 avatar = '☕'
                 name = "Shirohige's Cream Puff Factory"
                 start = '16:50'
-                end = '17:30'
+                end = '17:10'
                 desc = {
                   `
                     There are Totoro shaped deserts!
@@ -134,8 +119,8 @@ const App = () => {
               <Event
                 avatar = '🚆'
                 name = 'Commute'
-                start = '17:30'
-                end = '18:30'
+                start = '17:10'
+                end = '18:10'
                 desc = {
                     `
                       Let's head back home! 
@@ -160,7 +145,7 @@ const App = () => {
                     <ListItemIcon>
                       <CurrencyYenIcon/>
                     </ListItemIcon>
-                    <ListItemText primary="~4360" />
+                    <ListItemText primary="~5000" />
                   </ListItemButton>
                 </ListItem>
               </List>
