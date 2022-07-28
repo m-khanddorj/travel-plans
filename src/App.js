@@ -30,8 +30,8 @@ const App = () => {
               <Event
                 avatar = '🚆'
                 name = 'Commute'
-                start = '12:20'
-                end = '13:30'
+                start = '11:40'
+                end = '13:00'
                 desc = {
                     `
                       We will go to 吉祥寺駅 by train. 
@@ -45,7 +45,7 @@ const App = () => {
               <Event
                 avatar = '🍱'
                 name = 'Lunch'
-                start = '13:30'
+                start = '13:00'
                 end = '14:30'
                 desc = {
                   `
